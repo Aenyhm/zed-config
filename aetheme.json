@@ -1,0 +1,60 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "AeTheme",
+  "author": "Fabien Nouaillat <fabien@nouaillat.fr>",
+  "themes": [
+    {
+      "name": "AeTheme Dark",
+      "appearance": "dark",
+      "style": {
+        "editor.foreground": "#f2e5bc",
+        "editor.line_number": "#555",
+        "editor.active_line_number": "#dbb95e",
+        "editor.active_line.background": "#181818",
+        "editor.document_highlight.read_background": "#333",
+
+        "warning": "#e78a4e",
+        "warning.border": "#e78a4e",
+        "warning.background": "#191919",
+        "error": "#ea6962",
+        "error.border": "#ea6962",
+        "error.background": "#181818",
+        "scrollbar_thumb.background": "#222222aa",
+        "ghost_element.selected": "#5b5237",
+        "ghost_element.hover": "#2f2f2f",
+        "terminal.foreground": "#f2e5bc",
+        "terminal.ansi.red": "#ea6962",
+        "terminal.ansi.green": "#a9b665",
+        "terminal.ansi.yellow": "#d8a657",
+        "terminal.ansi.blue": "#7daea3",
+        "terminal.ansi.magenta": "#d3869b",
+        "terminal.ansi.cyan": "#89b482",
+        "players": [
+          {
+            "cursor": "#dbb95e",
+            "selection": "#2a2a2a"
+          }
+        ],
+        "syntax": {
+          "constant": {
+            "color": "#ce9fab"
+          },
+          "comment": {
+            "color": "#928374",
+            "font_style": "italic"
+          },
+          "keyword": {
+            "color": "#dbb95e"
+          },
+          "string": {
+            "color": "#a9b665"
+          },
+          "type": {
+            "color": "#7daea3"
+          },
+          "variable": {}
+        }
+      }
+    }
+  ]
+}

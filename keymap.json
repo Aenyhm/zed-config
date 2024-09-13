@@ -1,0 +1,22 @@
+[
+  {
+    "bindings": {
+      "escape": "workspace::CloseAllDocks"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-b": "task::Rerun",
+      "cmd-b": "task::Rerun",
+      "ctrl-shift-b": "task::Spawn",
+      "cmd-shift-b": "task::Spawn"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-enter": "editor::ToggleCodeActions"
+    }
+  }
+]
